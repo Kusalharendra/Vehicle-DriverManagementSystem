@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(../images/portImage4.JPG);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Main-Container{
+    width: 80%;
+    height: 765px;
+    background: rgba(136, 151, 154, 0.8);
+    color: #000000;
+    top: 50%;
+    bottom: 60%;
+    left: 58%;
+    right: auto;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing:border-box;
+    padding: 30px 30px;
+    border-radius: 20px;
+}
+
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+    font-style: bold;
+}
+
+legend{
+    font-style: italic;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Main-Container p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.Email-Field p{
+    font-weight: bold;
+}
+
+.Division select{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+

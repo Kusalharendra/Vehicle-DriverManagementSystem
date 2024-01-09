@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(../images/portImage2.JPG);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    margin: 0;
+    padding: 0px 0 10px;
+    text-align: center;
+    font-style: bold;
+}
+
+.Main-content{
+    width: 40%;
+    height: 500px;
+    background: rgba(89, 91, 92, 0.8);
+    color: #1b1818;
+    top: 40%;
+    bottom: 100%;
+    left: 55%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing:border-box;
+    padding: 30px 30px;
+    border-radius: 20px;
+}
+
+.vehicleType select{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.dateTime input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.destination input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.submitButton{
+    text-align: center;
+}

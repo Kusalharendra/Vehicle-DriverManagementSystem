@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(../images/portimage2.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Main-Container{
+    width: 80%;
+    height: 800px;
+    background: rgba(136, 151, 154, 0.8);
+    color: #000000;
+    top: 55%;
+    bottom: 60%;
+    left: 58%;
+    right: auto;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing:border-box;
+    padding: 30px 30px;
+    border-radius: 20px;
+}
